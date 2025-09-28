@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="water_energy" />
+        <module name="Rock-Paper-Scissors" />
       </profile>
     </annotationProcessing>
   </component>
