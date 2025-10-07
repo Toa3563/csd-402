@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="water_energy" />
         <module name="Rock-Paper-Scissors" />
+        <module name="Loops" />
+        <module name="Overload" />
+        <module name="water_energy" />
       </profile>
     </annotationProcessing>
   </component>

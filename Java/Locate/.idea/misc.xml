@@ -4,10 +4,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/Java/water_energy/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Rock-Paper-Scissors/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Loops/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Overload/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
