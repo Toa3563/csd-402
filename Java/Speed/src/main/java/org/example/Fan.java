@@ -1,21 +1,38 @@
 //Cannon Rivera, 10/15/2025, Object Instances
-
+//This Programs Allows you to create a Fan, and display it.
 package org.example;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 
 public class Fan {
     public static void main(String[] args) {
         Fan defaultFan = new Fan();
-        System.out.println(defaultFan);
+        System.out.println(fanString(defaultFan));
+
         Fan customFam = new Fan(SLOW,true,4,"Red");
-        System.out.println(customFam);
+        System.out.println(fanString(customFam));
+
+        Collection<Fan> fans = Arrays.asList(defaultFan,customFam);
+        System.out.println(collectionString(fans));
     }
 
-    @Override
-    public String toString() {
-        return "Your fan's speed is " + speed +
-                ",\n it's status is " + on +
-                ",\n it's radius is " + radius +
-                ",\n and it's color is " + color;
+    public static String fanString(Fan fan) {
+        return "Your fan's speed is " + fan.speed +
+                ",\n it's status is " + fan.on +
+                ",\n it's radius is " + fan.radius +
+                ",\n and it's color is " + fan.color + "\n";
+    }
+    public static String collectionString(Collection<Fan> fans) {
+        String output = "Fans: \n";
+        for (Fan fan : fans) {
+            output += "Your fan's speed is " + fan.speed +
+                    ",\n it's status is " + fan.on +
+                    ",\n it's radius is " + fan.radius +
+                    ",\n and it's color is " + fan.color + "\n";
+        }
+        return output;
     }
 
     public static final int STOPPED = 0;
