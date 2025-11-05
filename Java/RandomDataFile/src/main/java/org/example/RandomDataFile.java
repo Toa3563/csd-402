@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class RandomDataFile {
     public static void main(String[] args) {
         File file = new File("file.txt");
         Random random = new Random();

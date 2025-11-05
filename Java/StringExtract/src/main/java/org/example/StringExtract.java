@@ -9,7 +9,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class StringExtract {
     public static void main(String[] args) {
         ArrayList<String> words = new ArrayList<>();
 
